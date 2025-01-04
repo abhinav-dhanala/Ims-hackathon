@@ -6,7 +6,7 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 export const data = {
-  labels: ["Apple", "Knorr", "Shoop", "Green", "Purple", "Orange"],
+  labels: ["Watches", "Laptops", "Mouse", "Health Monitor", "Smart Watch", "Mouse Pad"],
   datasets: [
     {
       label: "# of Votes",
